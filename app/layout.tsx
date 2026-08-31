@@ -8,6 +8,7 @@ import {
   LINKEDIN_HREF,
   SITE_URL,
 } from "@/lib/site";
+import { safeJsonLd } from "@/lib/jsonLd";
 import "./globals.css";
 
 const OG_IMAGE = `${SITE_URL}/assets/images/site-preview.png`;
@@ -158,7 +159,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(JSON_LD) }}
         />
       </head>
       <body className="grain">

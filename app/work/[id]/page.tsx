@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { PROJECTS } from "@/lib/projects";
 import { ProjectArticle } from "@/components/ProjectArticle";
 import { SITE_URL } from "@/lib/site";
+import { safeJsonLd } from "@/lib/jsonLd";
 
 const OG_IMAGE = `${SITE_URL}/assets/images/site-preview.png`;
 
@@ -71,7 +72,7 @@ export default async function ProjectPage({ params }: PageProps) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectJsonLd(project)) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(projectJsonLd(project)) }}
       />
       <ProjectArticle project={project} />
     </>
