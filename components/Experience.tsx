@@ -7,7 +7,7 @@ export function Experience() {
       className="scroll-mt-16 border-b border-[var(--color-rule)] px-5 py-16 sm:px-8 sm:py-24"
     >
       <div className="mx-auto max-w-[1400px]">
-        <p className="kicker">02 — Experience</p>
+        <p className="kicker">03 — Experience</p>
         <h2 className="display mt-4 max-w-[16ch] text-[clamp(2rem,5vw,3.4rem)] leading-[0.98] text-[var(--color-ink)]">
           Places I&apos;ve <span className="display-italic text-[var(--color-accent)]">been</span>.
         </h2>

@@ -16,7 +16,7 @@ export function Contact() {
     >
       <div className="mx-auto grid max-w-[1400px] gap-12 lg:grid-cols-[1.4fr_0.6fr] lg:items-center lg:gap-20">
         <div>
-          <p className="kicker">04 — Contact</p>
+          <p className="kicker">05 — Contact</p>
           <h2 className="display mt-4 max-w-[16ch] text-[clamp(2.2rem,6vw,4.2rem)] leading-[1] text-[var(--color-ink)]">
             Let&apos;s build something{" "}
             <span className="display-italic text-[var(--color-accent)]">reliable</span>.

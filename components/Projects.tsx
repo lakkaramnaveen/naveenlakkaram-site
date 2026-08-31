@@ -9,7 +9,7 @@ export function Projects() {
       className="scroll-mt-16 border-b border-[var(--color-rule)] px-5 py-16 sm:px-8 sm:py-24"
     >
       <div className="mx-auto max-w-[1400px]">
-        <p className="kicker">03 — Selected work</p>
+        <p className="kicker">04 — Selected work</p>
         <h2 className="display mt-4 max-w-[18ch] text-[clamp(2rem,5vw,3.4rem)] leading-[0.98] text-[var(--color-ink)]">
           Systems I&apos;ve <span className="display-italic text-[var(--color-accent)]">shipped</span>.
         </h2>

@@ -5,6 +5,7 @@ import { RESUME_PDF_HREF } from "@/lib/site";
 
 const LINKS = [
   { href: "#profile", label: "About" },
+  { href: "#journey", label: "Journey" },
   { href: "#experience", label: "Experience" },
   { href: "#work", label: "Work" },
   { href: "#contact", label: "Contact" },
